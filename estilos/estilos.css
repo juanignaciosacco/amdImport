@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Prompt:wght@200;400;600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.portada {
+  width: 100%;
+}
+.portada img {
+  width: 100%;
+}
+
+.infoText {
+  width: 350px;
+}
+
+.css-button-rounded--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid RGB(55, 59, 76);
+  background: RGB(55, 59, 76);
+}
+.css-button-rounded--blue:hover {
+  background: #fff;
+  color: #2c0b8e;
+}
+
+.franjaServicios {
+  background-color: RGB(236, 233, 247);
+}
+
+.servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imgCard {
+  height: 75%;
+}
+
+.contactoInicio a {
+  text-decoration: none;
+  color: black;
+}
+.contactoInicio a i {
+  color: RGB(55, 59, 76);
+}
+
+#footer {
+  background-color: RGB(240, 240, 240);
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.unorderList {
+  list-style: inside;
+}
+
+.infoEmpresa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.infoEmpresa div {
+  width: 50%;
+}
+
+.infoEmpresa2 {
+  margin: 0 auto;
+  width: 60%;
+}
+.infoEmpresa2 ul {
+  margin: 0;
+  padding: 0;
+}
+
+.itemHistoria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.itemHistoria div {
+  width: 50%;
+}
+
+.videosRapiscan {
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.videosRapiscan iframe {
+  width: 458px;
+  height: 270px;
+}
+
+.medEng {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.medEng iframe {
+  width: 458px;
+  height: 270px;
+}
+.medEng div {
+  width: 30%;
+}
+.medEng img {
+  width: 100%;
+}
+
+.productosStandardIndustrie {
+  border-top: 1px solid black;
+}
+
+.equiposBarometrica {
+  border-top: 1px solid black;
+}
+.equiposBarometrica .imgsEquiposBarometrica {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.equiposBarometrica .imgsEquiposBarometrica img {
+  width: 40%;
+}
+
+.contenedoresStandardIndustrie {
+  border-top: 1px solid black;
+}
+.contenedoresStandardIndustrie ul {
+  list-style: inside;
+}
+.contenedoresStandardIndustrie img {
+  width: 70%;
+}
+.contenedoresStandardIndustrie .contenedoresStandardImgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contenedoresStandardIndustrie .contenedoresStandardImgs img {
+  width: 30%;
+}
+
+.obstruccionDePegaduras {
+  border-bottom: 1px solid black;
+}
+.obstruccionDePegaduras img {
+  width: 75%;
+}
+.obstruccionDePegaduras ul {
+  list-style: inside;
+}
+
+span {
+  color: rgb(0, 0, 169);
+}
+
+.limpIndImgs img {
+  width: 75%;
+}
+
+.limpSilos {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.limpSilos img {
+  width: 70%;
+}
+
+.btnsAsfalto {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.tr300 img {
+  width: 50%;
+}
+
+.ra66 img {
+  width: 50%;
+}
+
+.imgsDistribuidorAsfaltoTiro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.imgsDistribuidorAsfaltoTiro img {
+  width: 50%;
+}
+
+.scroll-container {
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+.scroll-container img {
+  width: 150px;
+  padding: 10px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 570px) {
+  .infoEmpresa div {
+    width: 80%;
+  }
+  .infoEmpresa2 {
+    width: 100%;
+  }
+  .videosRapiscan iframe {
+    width: 100%;
+    height: auto;
+  }
+  .medEng iframe {
+    width: 100%;
+    height: auto;
+  }
+  .medEng div {
+    width: 100%;
+  }
+  .contenedoresStandardIndustrie .contenedoresStandardImgs img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 975px) {
+  .itemHistoria div {
+    width: 100%;
+  }
+  .medEng iframe {
+    width: 100%;
+  }
+  .medEng div {
+    width: 90%;
+  }
+  .medEng img {
+    width: 100%;
+  }
+  .sealmaster iframe {
+    width: 80%;
+    height: auto;
+  }
+  .metong iframe {
+    width: 80%;
+    height: auto;
+  }
+  .enuo iframe {
+    width: 80%;
+    height: auto;
+  }
+  .tr300 img {
+    width: 80%;
+  }
+  .tr300 iframe {
+    width: 80%;
+    height: auto;
+  }
+  .ra66iframe iframe {
+    width: 80%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .medEng iframe {
+    width: 100%;
+  }
+  .medEng div {
+    width: 25%;
+  }
+  .medEng img {
+    width: 100%;
+  }
+  .contenedoresStandardIndustrie img {
+    width: 100%;
+  }
+  .limpSilos {
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .limpSilos img {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

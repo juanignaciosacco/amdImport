@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Prompt:wght@200;400;600&display=swap');
+
+$azulMarino: RGB(55, 59, 76);
+$celeste: RGB(236, 233, 247);
+$azul: rgb(0, 0, 169);
+$carousel-control-color: black;
+$fontTxt: 'Montserrat', sans-serif;
+
+*{
+  font-family: $fontTxt;
+  font: $fontTxt;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.portada {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.infoText {
+    width: 350px;
+}
+
+.css-button-rounded--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid $azulMarino;
+    background: $azulMarino;
+    &:hover {
+        background: #fff;
+        color: #2c0b8e;
+    }
+  }
+
+  .franjaServicios {
+    background-color: $celeste;
+  }
+
+  .servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .imgCard {
+    height: 75%;
+  }
+
+  .contactoInicio {
+    a {
+      text-decoration: none;
+      color: black;
+      i {
+        color: $azulMarino;
+      }
+    }
+  }
+
+  #footer {
+    background-color: RGB(240, 240, 240);
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  // Pagina Empresa - Sobre nosotros
+
+  .unorderList {
+    list-style: inside;
+  }
+
+  .infoEmpresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    div {
+      width: 50%;
+    }
+  }
+
+  .infoEmpresa2 {
+    margin: 0 auto;
+    width: 60%;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  // Pagina historia
+
+  .itemHistoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    div {
+      width: 50%;
+    }
+  }
+
+  // Pagina Seguridad
+
+  .videosRapiscan {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    iframe {
+      width: 458px;
+      height: 270px;
+    }
+  }
+
+  .medEng {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    iframe {
+      width: 458px;
+      height: 270px;
+    }
+    div {
+      width: 30%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  // Pagina Medio Ambiente
+
+  .productosStandardIndustrie {
+    border-top: 1px solid black;
+  }
+
+  .equiposBarometrica {
+    border-top: 1px solid black;
+    .imgsEquiposBarometrica {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      img {
+        width: 40%;
+      }
+    }
+  }
+
+  .contenedoresStandardIndustrie {
+    border-top: 1px solid black;
+    ul {
+      list-style: inside;
+    }
+    img {
+      width: 70%;
+    }
+    .contenedoresStandardImgs {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      img {
+        width: 30%;
+      }
+    }
+  }
+
+  // Pagina de Obstruccion de pegaduras
+  .obstruccionDePegaduras {
+    border-bottom: 1px solid black;
+    img {
+      width: 75%;
+    }
+    ul {
+      list-style: inside;
+    }
+  }
+
+  span {
+    color: $azul;
+  }
+
+  // Pagina de Limpieza industrial por aspiracion
+
+  .limpIndImgs {
+    img {
+      width: 75%;
+    }
+  }
+
+  // Pagina de Limpieza de silos
+
+  .limpSilos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    img {
+      width: 70%;
+    }
+  }
+
+  // Pagina de Asfalto
+
+  .btnsAsfalto {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .tr300 {
+    img {
+      width: 50%;
+    }
+  }
+
+  .ra66 {
+    img {
+      width: 50%;
+    }
+  }
+
+  .imgsDistribuidorAsfaltoTiro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img {
+      width: 50%;
+    }
+  }
+
+  // Pagina repuesos
+
+  .scroll-container {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    img {
+      width: 150px;
+      padding: 10px;
+    }
+  }
+
+  // Pagina contacto
+
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 570px) {
+
+    .infoEmpresa {
+      div {
+        width: 80%;
+      }
+    }
+
+    .infoEmpresa2 {
+      width: 100%;
+    }
+
+    .videosRapiscan {
+      iframe {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .medEng {
+      iframe {
+        width: 100%;
+        height: auto;
+      }
+      div {
+        width: 100%;
+      }
+    }
+
+    .contenedoresStandardIndustrie {
+      .contenedoresStandardImgs {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  @media only screen and (max-width: 975px) {
+
+    .itemHistoria {
+      div {
+        width: 100%;
+      }
+    }
+
+    .medEng {
+      iframe {
+        width: 100%;
+      }
+      div {
+        width: 90%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+
+    .sealmaster {
+      iframe {
+        width: 80%;
+        height: auto;
+      }
+    }
+
+    .metong {
+      iframe {
+        width: 80%;
+        height: auto;
+      }
+    }
+
+    .enuo {
+      iframe {
+        width: 80%;
+        height: auto;
+      }
+    }
+
+    .tr300 {
+      img {
+        width: 80%;
+      }
+      iframe {
+        width: 80%;
+        height: auto;
+      }
+    }
+
+    .ra66iframe {
+      iframe {
+        width: 80%;
+        height: auto;
+      }
+    }
+
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .medEng {
+      iframe {
+        width: 100%;
+      }
+      div {
+        width: 25%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+
+    .contenedoresStandardIndustrie {
+      img {
+        width: 100%;
+      }
+    }
+
+    .limpSilos {
+      text-align: center;
+      margin-top: 50px;
+      justify-content: center;
+      row-gap: 20px;
+      img {
+        width: 80%;
+      }
+    }
+  }
